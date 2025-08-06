@@ -1,0 +1,23 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>My Cookie Manager</title>
+    <style>
+        body {font-family: sans-serif; padding: 1em; min-width: 320px; min-height: 240px; box-sizing: border-box;}
+        textarea {width: 100%; height: 100px; margin-top: 0.5em;}
+        input[type="file"] {margin-top: 0.5em;}
+        button {margin: 0.5em 0; display: block; width: 100%;}
+        #status {margin-top: 10px; color: green;}
+    </style>
+</head>
+<body>
+    <button id="save">Save cookies as a file</button>
+    <button id="loadFileBtn">Load cookies from a file</button>
+    <input type="file" id="loadFileInput" accept=".json" style="display:none" />
+    <textarea id="cookieInput" placeholder="Insert cookies as JSON here"></textarea>
+    <button id="showCookiesBtn">Display cookies in the text field</button>
+    <button id="loadTextBtn">Load cookies from the text field</button>
+    <div id="status"></div>
+    <script src="popup.js"></script>
+</body>
+</html>
