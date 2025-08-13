@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "MyCookieManager",
+  "name": "My Cookie Manager",
   "version": "1.5",
-  "description": "A siple way of cookie saving and setup",
+  "description": "An easy way to save and set cookies",
   "action": {
     "default_popup": "popup.html",
     "default_icon": {

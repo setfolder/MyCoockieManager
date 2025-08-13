@@ -1,5 +1,4 @@
-﻿# Manual
-
+﻿# Overview
 
 My Cookie Manager is a browser extension for easy cookie management for every separate website.
 
@@ -14,6 +13,5 @@ Do not share your cookies with anyone!
 My Cookie Manager is open source and does not collect any information or send it anywhere.
 
 The author disclaims any responsibility for any use of this software. If you are not agree with this -- do not use this software.
-
 
 _© My Cookie Manager by Serhii Voznytsia_
